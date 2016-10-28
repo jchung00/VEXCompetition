@@ -103,7 +103,7 @@
 		motor[elevatorL] = 0;
 	}
 	
-	void tilt(){//tilts the forklift up
+	void tiltUp(){//tilts the forklift up
 		clearTimer(T3);
 		while(time1[T3] < 500){
 			motor[tilter] = 120;
